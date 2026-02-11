@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.foto-perfil { /* Estilos para a foto */
+    width: 150px; /* Largura da imagem */
+    height: 150px; /* Altura (para manter quadrada) */
+    border-radius: 50%; /* Torna a imagem circular */
+    border: 3px solid white; /* Borda branca para destacar */
+    margin-bottom: 10px; /* Espaço abaixo da foto */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.job, .education {
+    margin-bottom: 15px;
+}
+
+.job h3, .education h3 {
+    color: #007bff;
+}
